@@ -56,3 +56,20 @@ result = agent_executor.invoke({
     "context": ""
 })
 print(result["output"])
+
+## 📎 Folder Structure (Recommended)
+
+```
+├── SERVER.py                      # Tool server using FastAPI + MCP decorators
+├── Client.ipynb                   # Notebook to run the agent
+├── weather_SSE.json               # Uses uvicorn (SSE transport)
+├── weather_STDIO.json             # Uses mcp[cli] (STDIO transport)
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+
+```
+
+## 👨‍💻 Author
+
+**Pranjal Kamboj**  
+💼 Master's in Computer Science  
