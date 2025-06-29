@@ -60,12 +60,16 @@ print(result["output"])
 ## 📎 Folder Structure (Recommended)
 
 ```
-├── SERVER.py                      # Tool server using FastAPI + MCP decorators
-├── Client.ipynb                   # Notebook to run the agent
-├── weather_SSE.json               # Uses uvicorn (SSE transport)
-├── weather_STDIO.json             # Uses mcp[cli] (STDIO transport)
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+
+├── AgentBuilder.ipynb # Main notebook that builds the agent step-by-step
+├── wikipedia_tool.py # Wikipedia tool using LangChain WikipediaQueryRun
+├── ai_retriever_tool.py # Vector-based tool using FAISS + HuggingFace embeddings
+├── arxiv_tool.py # Arxiv scientific search tool
+├── calculator_tool.py # Basic math evaluator using eval
+├── web_search_tool.py # DuckDuckGo-based web search tool
+├── .env # Stores GROQ API key and other env variables
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 ```
 
