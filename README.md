@@ -63,7 +63,7 @@ print(result["output"])
 
 ├── AgentBuilder.ipynb # Main notebook that builds the agent step-by-step
 ├── wikipedia_tool.py # Wikipedia tool using LangChain WikipediaQueryRun
-├── ai_retriever_tool.py # Vector-based tool using FAISS + HuggingFace embeddings
+├── ai_retriever_tool.py # Vector-based tool using FAISS and  HuggingFace embeddings
 ├── arxiv_tool.py # Arxiv scientific search tool
 ├── calculator_tool.py # Basic math evaluator using eval
 ├── web_search_tool.py # DuckDuckGo-based web search tool
